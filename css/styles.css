@@ -284,7 +284,6 @@ body {
 
 .shadow-2:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-
 }
 
 .row {
@@ -386,8 +385,8 @@ margin: 0;
 
 .social-media:hover {
   border-color: #2196F3;
-  width: 44px;
-  height: 44px;
+  width: 20px;
+  height: 20px;
 }
 
 .clientes-title {
@@ -460,12 +459,12 @@ color: #FFFFFF;
   gap: 10px;
   border: 2px solid black;
   border-radius: 1px;
-  width: 44px;
-  height: 44px;
+  width: 20px;
+  height: 20px;
 }
 
 .social-media-footer:hover {
   border-color: #2196F3;
-  width: 44px;
-  height: 44px;
+  width: 20px;
+  height: 20px;
 }
