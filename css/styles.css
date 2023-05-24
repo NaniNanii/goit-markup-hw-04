@@ -494,10 +494,14 @@ color: #FFFFFF;
 .svg-media-center {
   justify-content: center;
   display: flex;
-  padding: 12px;
+  margin: 12px;
 }
 
 svg {
   align-items: center;
   align-content: center;
+}
+
+a {
+  text-decoration: none;
 }
