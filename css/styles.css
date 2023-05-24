@@ -27,6 +27,10 @@ body {
   text-decoration: none;
 }
 
+.contacts-header {
+  display: flex;
+}
+
 .linklist {
   color: #212121;
   font-weight: 500;
@@ -331,7 +335,7 @@ margin: 0;
   align-items: center;
   justify-content: space-between;
   fill: currentColor;
-  padding-right: 10px;
+  gap: 10px;
 }
 
 .black-background-image {
@@ -378,6 +382,7 @@ margin: 0;
   border-radius: 50%;
   height: 44px;
   width: 44px;
+  color: #afb1b8;
 }
 
 .social-media:hover {
