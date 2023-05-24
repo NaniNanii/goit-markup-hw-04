@@ -472,6 +472,7 @@ color: #FFFFFF;
   gap: 10px;
   width: 44px;
   height: 44px;
+  
 }
 
 .media-circle {
@@ -490,6 +491,13 @@ color: #FFFFFF;
   opacity: 60%;
 }
 
+.svg-media-center {
+  justify-content: center;
+  display: flex;
+  padding: 12px;
+}
+
 svg {
-  fill: currentColor;
+  align-items: center;
+  align-content: center;
 }
