@@ -4,9 +4,6 @@ body {
   text-decoration: none;
   font-size: 14px;
   font-weight: 400;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .webstudio {
@@ -16,6 +13,7 @@ body {
   font-size: 26px;
   line-height: 1.19;
   font-family: 'raleway';
+  font-style: normal;
 }
 
 .contacts {
@@ -143,7 +141,6 @@ body {
 
 .contacts-2 {
   color: #FFFFFF;
-  opacity: 60%;
   list-style-type: none;
   text-decoration: none;
 }
@@ -378,15 +375,14 @@ margin: 0;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 30px;
-  border: 2px solid black;
-  border-radius: 1px;
+  border-radius: 50%;
+  height: 44px;
+  width: 44px;
 }
 
 .social-media:hover {
   border-color: #2196F3;
-  width: 20px;
-  height: 20px;
+  color: white;
 }
 
 .clientes-title {
@@ -438,6 +434,10 @@ margin: 0;
 
 }
 
+.footer-contacts-width {
+  width: 213px;
+}
+
 .social-media-footer-title {
 font-family: 'Roboto';
 font-style: normal;
@@ -467,4 +467,12 @@ color: #FFFFFF;
   border-color: #2196F3;
   width: 20px;
   height: 20px;
+}
+
+.footer-opacity {
+  opacity: 60%;
+}
+
+svg {
+  fill: currentColor;
 }
