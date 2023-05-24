@@ -139,6 +139,10 @@ body {
   text-decoration: none;
 }
 
+.address-box{
+  width: 231px;
+}
+
 .address:hover {
   color: #2196F3;
 }
@@ -336,6 +340,7 @@ margin: 0;
 
 .contacts-svg:hover {
   color: #2196F3;
+  fill: #2196F3;
 }
 
 .black-background-image {
@@ -386,7 +391,8 @@ margin: 0;
 }
 
 .social-media:hover {
-  border-color: #2196F3;
+  background-color: #2196F3;
+  color: white;
 }
 
 .clientes-title {
@@ -437,6 +443,9 @@ margin: 0;
   padding-bottom: 60px;
 
 }
+.social-media-footer-spacing {
+padding-bottom: 20px;
+}
 
 .footer-contacts-width {
   width: 213px;
@@ -461,12 +470,20 @@ color: #FFFFFF;
 
 .social-media-footer {
   gap: 10px;
-  width: 20px;
-  height: 20px;
+  width: 44px;
+  height: 44px;
+}
+
+.media-circle {
+  border-radius: 50%;
+  background-color: white;
+  opacity: 10%;
 }
 
 .social-media-footer:hover {
-  border-color: #2196F3;
+  background-color: #2196F3;
+  color: white;
+  opacity: 100%;
 }
 
 .footer-opacity {
