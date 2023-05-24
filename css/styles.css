@@ -326,16 +326,16 @@ margin: 0;
   border-image: initial;
 }
 
-.footer-image-subtitle p{
-
-}
-
-.mail-svg {
+.contacts-svg {
   display: flex;
   align-items: center;
   justify-content: space-between;
   fill: currentColor;
   gap: 10px;
+}
+
+.contacts-svg:hover {
+  color: #2196F3;
 }
 
 .black-background-image {
@@ -387,7 +387,6 @@ margin: 0;
 
 .social-media:hover {
   border-color: #2196F3;
-  color: white;
 }
 
 .clientes-title {
