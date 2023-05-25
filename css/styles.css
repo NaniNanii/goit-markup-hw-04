@@ -319,6 +319,11 @@ margin: 0;
   background-color: #f5f4fa;
 }
 
+.icon-size{
+  width: 70px;
+  height: 70px;
+}
+
 .footer-image-subtitle {
   align-items: center;
   position: relative;
@@ -405,9 +410,9 @@ margin: 0;
 .container-clientes {
   display: flex;
   flex-wrap: wrap;
-  gap: 30px;
-  border: 2px #afb1b8;
-  border-radius: 8px;
+  gap: 20px;
+  border: 1px #afb1b8;
+  border-radius: 4px;
   padding-bottom: 151px;
 }
 
