@@ -1,3 +1,7 @@
+:root {
+  --brand-color: #2196f3;
+}
+
 body {
   background-color: white;
   font-family: "Roboto", "Arial";
@@ -5,6 +9,18 @@ body {
   font-size: 14px;
   font-weight: 400;
 }
+
+svg {
+  align-items: center;
+  align-content: center;
+  fill: currentColor;
+}
+
+a {
+  text-decoration: none;
+  fill: currentColor;
+}
+
 
 .webstudio {
   color: #2196F3;
@@ -46,7 +62,10 @@ body {
   line-height: 1.14;
   margin-right: 50px;
   text-decoration: none;
+}
 
+.active {
+color: var(--brand-color);
 }
 
 .link:hover {
@@ -75,6 +94,11 @@ body {
   color: white;
   background-color: #2196F3;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.button-active {
+  background-color: var(--brand-color);
+  color: white;
 }
 
 .solutions-greybox {
@@ -428,12 +452,14 @@ margin: 0;
 .clientes-cuadro{
   border: 2px solid #AFB1B8;
   border-radius: 1px;
+  color: #AFB1B8;
 }
 
 .clientes-cuadro:hover {
   border-color: #2196F3;
   width: 170px;
   height: 85px;
+  color: var(--brand-color);
 }
 
 .container-address {
@@ -502,11 +528,3 @@ color: #FFFFFF;
   margin: 12px;
 }
 
-svg {
-  align-items: center;
-  align-content: center;
-}
-
-a {
-  text-decoration: none;
-}
