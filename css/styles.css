@@ -1,5 +1,6 @@
 :root {
   --brand-color: #2196f3;
+  --brand-color: #AFB1B8;
 }
 
 body {
@@ -64,16 +65,16 @@ a {
   text-decoration: none;
 }
 
-.active {
-color: var(--brand-color);
-}
-
 .link:hover {
   color: #2196F3;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
 }
+
+.active {
+  color: var(--brand-color);
+  }
 
 .button {
   color: #212121;
@@ -457,8 +458,8 @@ margin: 0;
 
 .clientes-cuadro:hover {
   border-color: #2196F3;
-  width: 170px;
-  height: 85px;
+  width: 174px;
+  height: 89px;
   color: var(--brand-color);
 }
 
@@ -528,3 +529,6 @@ color: #FFFFFF;
   margin: 12px;
 }
 
+.svg-icon-color {
+  color: #AFB1B8;
+}
