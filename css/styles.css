@@ -421,7 +421,6 @@ margin: 0;
 
 .social-media:hover {
   background-color: #2196F3;
-  color: var(--brand-color);
   color: white;
 }
 
@@ -529,6 +528,3 @@ color: #FFFFFF;
   margin: 12px;
 }
 
-.svg-icon-color {
-  color: #AFB1B8;
-}
