@@ -344,6 +344,10 @@ margin: 0;
 
 .paragraph-svg {
   background-color: #f5f4fa;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 25px;
+  padding-top: 25px;
 }
 
 .icon-size{
