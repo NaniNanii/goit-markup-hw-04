@@ -1,6 +1,5 @@
 :root {
   --brand-color: #2196f3;
-  --brand-color: #AFB1B8;
 }
 
 body {
@@ -65,16 +64,16 @@ a {
   text-decoration: none;
 }
 
+.active {
+  color: var(--brand-color);
+}
+
 .link:hover {
   color: #2196F3;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
 }
-
-.active {
-  color: var(--brand-color);
-  }
 
 .button {
   color: #212121;
@@ -422,6 +421,7 @@ margin: 0;
 
 .social-media:hover {
   background-color: #2196F3;
+  color: var(--brand-color);
   color: white;
 }
 
