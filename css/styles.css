@@ -21,7 +21,6 @@ a {
   color: currentColor;
 }
 
-
 .webstudio {
   color: #2196F3;
   text-decoration: none;
@@ -264,7 +263,7 @@ a {
 
 .teamsection {
   background-color: #F5F4FA;
-  margin-top: 94px;
+  padding-top: 40px;
   height: 648px;
 
 }
@@ -285,6 +284,10 @@ a {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
+}
+
+.AAS {
+  padding-bottom: 94px;
 }
 
 .listbuttons {
@@ -416,7 +419,6 @@ margin: 0;
   border-radius: 50%;
   height: 44px;
   width: 44px;
-  color: #afb1b8;
 }
 
 .social-media:hover {
